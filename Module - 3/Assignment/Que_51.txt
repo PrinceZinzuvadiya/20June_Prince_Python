@@ -1,0 +1,6 @@
+How Many Basic Types Of Functions Are Available In python?
+    In Python, there are two basic types of functions: user-defined functions and built-in functions. 
+    
+    User-defined functions are functions that you create yourself to perform specific tasks. 
+    
+    Built-in functions are functions that are already defined in Python and come with the language. Examples of built-in functions include len(), print(), max(), and min().

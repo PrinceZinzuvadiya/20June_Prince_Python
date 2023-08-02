@@ -1,0 +1,12 @@
+How can you pick a random item from a range?
+    The random.choice() method can be used to randomly select an item from a range.
+
+    import random
+
+    # Create a range of numbers
+    numbers = range(1, 10)
+
+    # Pick a random item from the range
+    random_number = random.choice(numbers)
+
+    print(random_number)

@@ -1,0 +1,7 @@
+How will you set the starting value in generating random numbers?
+    You can set the starting value for generating random numbers using the srand() function. This function takes an unsigned integer as an argument and uses it to seed the random number generator. 
+    
+    For example:
+    srand(12345);
+
+    This will set the starting value to 12345. After that, you can use the rand() function to generate random numbers.

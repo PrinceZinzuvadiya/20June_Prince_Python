@@ -1,0 +1,17 @@
+Que 1 - What is List? How will you reverse a list?
+List:-
+    A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements. Each element or value that is inside of a list is called an item. Just as strings are defined as characters between quotes, lists are defined by having values between square brackets [ ].
+
+    Python List reverse() is an inbuilt method in the Python programming language that reverses objects of the List in place i.e. it doesn’t use any extra space but it just modifies the original list.
+
+Python program to demonstrate the use of reverse method:-
+    # a list of numbers
+    list1 = [1, 2, 3, 4, 1, 2, 6]
+    list1.reverse()
+    print(list1)
+
+    # a list of characters
+    list2 = ['a', 'b', 'c', 'd', 'a', 'a']
+    list2.reverse()
+    print(list2)
+

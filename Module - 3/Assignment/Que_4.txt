@@ -1,0 +1,15 @@
+Que 4 - Differentiate between append () and extend () methods? 
+    When using Python lists, the append() and extend() methods are both used to add elements to the list. However, they are slightly different in how they work:
+
+append():-
+    adds a single element to the end of the list.
+extend():-
+    adds all elements of an iterable to the end of the list.
+    
+    For example:
+    my_list = [1,2,3]
+    my_list.append(4)
+    print(my_list) # [1,2,3,4]
+
+    my_list.extend([5,6,7])
+    print(my_list) # [1,2,3,4,5,6,7]

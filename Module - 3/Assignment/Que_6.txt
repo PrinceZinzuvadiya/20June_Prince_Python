@@ -1,0 +1,21 @@
+Que 6 - How will you compare two lists? 
+
+Comparing two lists can be done in a number of ways. One option is to use the set() function. This will convert the lists to sets, which are unordered collections of unique elements. Then you can use the == operator to check if the sets are equal.
+
+list1 = [1, 2, 3]
+list2 = [3, 2, 1]
+
+if set(list1) == set(list2):
+    print("The lists are equal")
+else:
+    print("The lists are not equal")
+
+Another option is to use the all() function. This works by looping through each element of the first list and checking if it is in the second list.
+
+list1 = [1, 2, 3]
+list2 = [3, 2, 1]
+
+if all(x in list2 for x in list1):
+    print("The lists are equal")
+else:
+    print("The lists are not equal")
