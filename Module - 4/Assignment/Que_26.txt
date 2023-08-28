@@ -1,0 +1,24 @@
+Que - What is Instantiation in terms of OOP terminology?
+
+    Instantiation is a fundamental concept in object-oriented programming (OOP) that refers to the process of creating an instance or object of a class. In other words, instantiation is the act of turning a class blueprint into a concrete object that can hold data (attributes) and perform actions (methods) as defined in the class.
+
+    When you instantiate an object, you are creating a unique instance of that class with its own set of attributes and methods. These attributes can have specific values that are assigned during instantiation, and the methods can be called to perform actions on the object.
+
+    Here's a simple example to illustrate instantiation:
+
+    class Car:
+        def __init__(self, brand, model):
+            self.brand = brand
+            self.model = model
+        
+        def start_engine(self):
+            print("Starting the engine of", self.brand, self.model)
+
+        # Instantiating objects of the Car class
+        car1 = Car("Toyota", "Camry")
+        car2 = Car("Honda", "Civic")
+
+        # Calling methods on the instantiated objects
+        car1.start_engine()
+        car2.start_engine()
+

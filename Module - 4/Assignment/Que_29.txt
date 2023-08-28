@@ -1,0 +1,32 @@
+Que - What relationship is appropriate for Student and Person? 
+    The appropriate relationship between a "Student" class and a "Person" class in object-oriented programming is typically a specialization relationship, specifically an inheritance relationship. This relationship indicates that a "Student" is a specialized type of "Person," inheriting attributes and behaviors from the more general class.
+
+Inheritance (Specialization):-
+
+    Inheritance is a fundamental concept in object-oriented programming where a subclass (e.g., "Student") inherits attributes and methods from a superclass (e.g., "Person"). This relationship signifies that a "Student" shares common attributes and behaviors with a "Person," but it also has its own unique attributes and behaviors specific to being a student.
+
+    Here's an example:
+
+    class Person:
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+
+        def introduce(self):
+            return f"Hi, I'm {self.name} and I'm {self.age} years old."
+
+    class Student(Person):
+        def __init__(self, name, age, student_id):
+            super().__init__(name, age)
+            self.student_id = student_id
+
+        def study(self, subject):
+            return f"{self.name} is studying {subject}."
+
+    # Instantiate Person and Student objects
+    person = Person("John Doe", 30)
+    student = Student("Alice Smith", 20, "12345")
+
+    print(person.introduce())  # Output: Hi, I'm John Doe and I'm 30 years old.
+    print(student.introduce())  # Output: Hi, I'm Alice Smith and I'm 20 years old.
+    print(student.study("Math"))  # Output: Alice Smith is studying Math.

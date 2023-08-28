@@ -1,0 +1,29 @@
+Que - How Do You Handle Exceptions With Try/Except/Finally In Python? Explain with coding snippets. 
+
+Handling Exceptions with Try/Except/Finally in Python:-
+    Python provides a powerful way to handle exceptions with the try/except/finally statement. This statement allows you to define a block of code that will be executed regardless of any exceptions that may occur.
+
+Try:-
+    The try statement defines a block of code that will be executed. If an exception occurs, it will be handled by the except statement.
+
+    try:
+        # Code that may throw an exception
+    except:
+        # Code that will be executed if an exception occurs
+
+Except:-
+    The except statement defines a block of code that will be executed if an exception occurs in the try
+    block. You can also specify the type of exception that will be handled.
+
+    try:
+        # Code that may throw an exception
+    except ValueError:
+        # Code that will be executed if a ValueError occurs
+
+Finally:-
+    The finally statement defines a block of code that will be executed regardless of any exceptions that may occur in the try block. This is useful for performing any necessary clean-up operations, such as closing files or releasing resources.
+
+    try:
+        # Code that may throw an exception
+    finally:
+        # Code that will be executed regardless of any exceptions

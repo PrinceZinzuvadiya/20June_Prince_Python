@@ -1,0 +1,19 @@
+Que - How many except statements can a try-except block have? Name Some built-in exception classes: 
+    
+    A single `try` block can have multiple `except` blocks to handle different types of exceptions. There is no strict limit on the number of `except` statements you can have in a `try-except` block, but keep in mind that having too many `except` blocks can make your code harder to read and maintain.
+
+    Here are some examples of built-in exception classes in Python:
+
+    1. `ZeroDivisionError`: Raised when division or modulo by zero is performed.
+    2. `ValueError`: Raised when a function receives an argument of the correct type but with an inappropriate value.
+    3. `TypeError`: Raised when an operation or function is applied to an object of inappropriate type.
+    4. `IndexError`: Raised when a sequence subscript is out of range.
+    5. `KeyError`: Raised when a dictionary key is not found.
+    6. `FileNotFoundError`: Raised when an attempt to open a file fails because the file cannot be found.
+    7. `IOError`: Raised when an I/O operation fails (Python 2).
+    8. `OSError`: Base class for various operating system-related errors.
+    9. `NameError`: Raised when a local or global name is not found.
+    10. `ImportError`: Raised when an import statement fails to find the specified module.
+    11. `AttributeError`: Raised when an attribute reference or assignment fails.
+    12. `RuntimeError`: Raised when an error occurs that doesn't belong to any specific category.
+    13. `Exception`: Base class for all built-in exceptions.

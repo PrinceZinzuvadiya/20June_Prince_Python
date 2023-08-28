@@ -1,0 +1,17 @@
+Que - Can one block of except statements handle multiple exception? 
+
+Yes, one block of except statements can handle multiple exceptions.For example, if you wanted to catch both ZeroDivisionError and ValueError exceptions, you could do something like this:
+
+    try:
+        # code that could raise an exception
+    except ZeroDivisionError:
+        # code to handle ZeroDivisionError
+    except ValueError:
+        # code to handle ValueError
+
+You can also use the except statement with no exceptions specified, which will catch all exceptions:
+
+    try:
+        # code that could raise an exception
+    except:
+        # code to handle any exception

@@ -1,0 +1,14 @@
+Que - When will the else part of try-except-else be executed?
+    
+    The else part of a try-except-else block will be executed when no exceptions have been raised in the try block. This means that the code in the try block was successfully executed and no errors occurred.
+
+    For example:-
+
+    try:
+        # some code
+    except Exception:
+        # handle exception
+    else:
+        # code executed if no exceptions occurred
+
+        

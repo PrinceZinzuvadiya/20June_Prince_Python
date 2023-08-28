@@ -1,0 +1,27 @@
+Que - What relationship is appropriate for Course and Faculty?
+    The appropriate relationship between a "Course" class and a "Faculty" class in object-oriented programming can be described as a composition or association, specifically an "association with aggregation."
+
+    Association with Aggregation:-
+
+        In this relationship, a "Course" object can have a reference to a "Faculty" object. It indicates that a "Course" is composed of or includes a "Faculty" member who is responsible for teaching that course. This is a one-to-one or a many-to-one relationship, depending on whether a faculty member can teach multiple courses or not.
+
+        Here's an example:
+
+            class Faculty:
+                def __init__(self, name, department):
+                    self.name = name
+                    self.department = department
+
+            class Course:
+                def __init__(self, name, faculty):
+                    self.name = name
+                    self.faculty = faculty
+
+            faculty1 = Faculty("John Smith", "Computer Science")
+            faculty2 = Faculty("Jane Doe", "Mathematics")
+
+            course1 = Course("Introduction to Programming", faculty1)
+            course2 = Course("Linear Algebra", faculty2)
+
+            print(f"{course1.name} is taught by {course1.faculty.name} in the {course1.faculty.department} department.")
+            print(f"{course2.name} is taught by {course2.faculty.name} in the {course2.faculty.department} department.")

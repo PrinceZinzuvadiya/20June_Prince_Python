@@ -1,0 +1,56 @@
+What are oops concepts?
+
+OOPs Concepts in Python:-
+    1.Class
+    2.Objects
+    3.Polymorphism
+    4.Encapsulation
+    5.Inheritance
+    6.Data Abstraction
+
+1.Class:-
+    A class is a collection of objects. A class contains the blueprints or the prototype from which the objects are being created. It is a logical entity that contains some attributes and methods. 
+
+    To understand the need for creating a class let’s consider an example, let’s say you wanted to track the number of dogs that may have different attributes like breed, and age. If a list is used, the first element could be the dog’s breed while the second element could represent its age. Let’s suppose there are 100 different dogs, then how would you know which element is supposed to be which? What if you wanted to add other properties to these dogs? This lacks organization and it’s the exact need for classes.
+
+    class ClassName:
+    # Statement-1
+    .
+    .
+    .
+    # Statement-N
+
+2.Objects:-
+    The object is an entity that has a state and behavior associated with it. It may be any real-world object like a mouse, keyboard, chair, table, pen, etc. Integers, strings, floating-point numbers, even arrays, and dictionaries, are all objects. More specifically, any single integer or any single string is an object. The number 12 is an object, the string “Hello, world” is an object, a list is an object that can hold other objects, and so on. You’ve been using objects all along and may not even realize it.
+
+    This will create an object named obj of the class Dog defined above. Before diving deep into objects and classes let us understand some basic keywords that will we used while working with objects and classes.
+
+    obj = Dog()
+
+3.Inheritance:-
+    Inheritance is the capability of one class to derive or inherit the properties from another class. The class that derives properties is called the derived class or child class and the class from which the properties are being derived is called the base class or parent class.
+
+    Types of Inheritance:- 
+    1.Single Inheritance: Single-level inheritance enables a derived class to inherit characteristics from a single-parent class.
+    
+    2.Multiple Inheritance: Multiple-level inheritance enables one derived class to inherit properties from more than one base class.
+    
+    3.Multilevel Inheritance: Multi-level inheritance enables a derived class to inherit properties from an immediate parent class which in turn inherits properties from his parent class. 
+    
+    4.Hierarchical Inheritance: Hierarchical-level inheritance enables more than one derived class to inherit properties from a parent class.
+
+4.Polymorphism:-
+    Polymorphism simply means having many forms. For example, we need to determine if the given species of birds fly or not, using polymorphism we can do this using a single function.
+
+    This code demonstrates the concept of inheritance and method overriding in Python classes. It shows how subclasses can override methods defined in their parent class to provide specific behavior while still inheriting other methods from the parent class.
+
+5.Encapsulation:-
+    Encapsulation is one of the fundamental concepts in object-oriented programming (OOP). It describes the idea of wrapping data and the methods that work on data within one unit. This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data. To prevent accidental change, an object’s variable can only be changed by an object’s method. Those types of variables are known as private variables.
+
+    A class is an example of encapsulation as it encapsulates all the data that is member functions, variables, etc.
+
+6.Data Abstraction:-
+    t hides unnecessary code details from the user. Also,  when we do not want to give out sensitive parts of our code implementation and this is where data abstraction came. Data Abstraction in Python can be achieved by creating abstract classes.
+
+Is multiple inheritance supported in java :-
+    Multiple inheritance is not supported by Java using classes, handling the complexity that causes due to multiple inheritances is very complex.

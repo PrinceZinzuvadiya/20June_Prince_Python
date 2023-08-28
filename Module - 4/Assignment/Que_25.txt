@@ -1,0 +1,43 @@
+Que - Explain Inheritance in Python with an example? What is init? Or What Is A Constructor In Python? 
+    
+Inheritance in Python:-
+    Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a new class (called the "subclass" or "derived class") to inherit attributes and behaviors (methods) from an existing class (called the "base class" or "parent class"). This facilitates code reuse and allows for the creation of more specialized classes that build upon the functionality of existing classes.
+
+    In Python, you can create a subclass by specifying the base class in parentheses after the subclass name when defining it. The subclass inherits all the attributes and methods of the base class and can also have its own additional attributes and methods.
+
+    Here's a example of inheritance in Python:-
+        class Animal:
+        def __init__(self, name):
+            self.name = name
+
+        def speak(self):
+            pass
+
+        class Dog(Animal):
+        def speak(self):
+            return "Woof!"
+
+        class Cat(Animal):
+        def speak(self):
+            return "Meow!"
+
+        # Usage
+        dog = Dog("Buddy")
+        cat = Cat("Whiskers")
+
+        print(dog.name, "says:", dog.speak())
+        print(cat.name, "says:", cat.speak())
+
+__init__ Constructor in Python:-
+    In Python, __init__ is a special method, also known as a constructor, that is automatically called when an object of a class is created. It is used to initialize the attributes of the object. The self parameter represents the instance of the object being created, and it's used to access and modify attributes of the object.
+
+    Here's a brief explanation of how the __init__ method works:
+
+    class MyClass:
+        def __init__(self, parameter1, parameter2):
+            self.attribute1 = parameter1
+            self.attribute2 = parameter2
+
+        # Creating an object of MyClass
+        obj = MyClass(value1, value2)
+

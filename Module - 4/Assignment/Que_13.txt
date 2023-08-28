@@ -1,0 +1,17 @@
+Que -  Explain Exception handling? What is an Error in Python?
+
+Handling Exception:-
+    If you have some suspicious code that may raise an exception, you can defend your program by placing the suspicious code in a try: block. After the try: block, include an except: statement, followed by a block of code which handles the problem as elegantly as possible.
+
+    Syntax:-
+        try:
+            You do your operations here;
+            ......................
+        except Exception:
+            If there is Exception, then execute this block.
+ 
+ Error in Python:-
+    Errors are problems that occur in the program due to an illegal operation performed by the user or by the fault of a programmer, which halts the normal flow of the program. Errors are also termed bugs or faults. There are mainly two types of errors in python programming. There are mainly two types of errors in python:
+
+    1. Syntax Error
+    2. Logical Error

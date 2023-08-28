@@ -1,0 +1,7 @@
+Que - What is used to check whether an object o is an instance of class A? 
+
+    You can use the built-in function isinstance() in Python to check whether an object is an instance of a particular class. The function returns True if the object is an instance of the specified class or a subclass thereof, and False otherwise.
+
+    Here's the syntax for using isinstance():
+
+    is_instance = isinstance(object, class)

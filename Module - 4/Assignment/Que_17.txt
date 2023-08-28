@@ -1,0 +1,3 @@
+Que - When is the finally block executed?
+
+    The finally block in a try-catch-finally statement is executed regardless of whether an exception was thrown or caught. It is useful for cleaning up resources or performing any other tasks that should be done regardless of whether an exception was thrown or caught.

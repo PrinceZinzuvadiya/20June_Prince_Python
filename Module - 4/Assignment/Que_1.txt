@@ -1,0 +1,34 @@
+Que 1 - What is File function in python? What is keywords to create and write file. 
+
+File function:-
+    A file is a container in computer storage devices used for storing data. When we want to read from or write to a file, we need to open it first. When we are done, it needs to be closed so that the resources that are tied with the file are freed. Hence, in Python, a file operation takes place in the following order:
+
+    1. Open a file
+    2. Read or write (perform operation)
+    3. Close the file
+
+1. Opening file:- 
+    In Python, we use the open() method to open files. To demonstrate how we open files in Python, let's suppose we have a file named test.txt with the following content. 
+
+2. Read or write file:-
+    After we open a file, we use the read() method to read its contents. For example, 
+
+    # open a file
+    file1 = open("test.txt", "r")
+
+    # read the file
+    read_content = file1.read()
+    print(read_content)
+
+3. Close the file:-
+    When we are done with performing operations on the file, we need to properly close the file. Closing a file will free up the resources that were tied with the file. It is done using the close() method in Python. For example,
+
+    # open a file
+    file1 = open("test.txt", "r")
+
+    # read the file
+    read_content = file1.read()
+    print(read_content)
+
+    # close the file
+    file1.close()

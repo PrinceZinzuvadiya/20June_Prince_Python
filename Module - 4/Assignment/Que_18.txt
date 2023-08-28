@@ -1,0 +1,3 @@
+Que - What happens when „1‟== 1 is executed? 
+
+    When the statement 1 == 1 is executed, the result will be true. This is because the two values being compared (1 and 1) are equal and thus the statement evaluates to true.
